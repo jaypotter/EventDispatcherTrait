@@ -1,0 +1,28 @@
+{
+    "name": "potter/event-dispatcher-trait",
+    "description": "PHP Event Dispatcher Trait",
+    "type": "library",
+    "require": {
+        "php": "^8.3"
+    },
+    "suggest": {
+        "potter/event-dispatcher": "dev-main",
+        "potter/event-traits": "dev-main",
+        "potter/event": "dev-main",
+        "potter/traits": "dev-main",
+        "potter/framework": "dev-main"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Potter\\Event\\Dispatcher\\": "src/Potter/Event/Dispatcher/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jay Potter",
+            "email": "j@ypotter.ca"
+        }
+    ],
+    "minimum-stability": "dev"
+}
