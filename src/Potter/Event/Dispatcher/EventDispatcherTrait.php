@@ -17,6 +17,7 @@ trait EventDispatcherTrait
         foreach($events as $dispatchedEvent) {
             $dispatchedEvent($event);
         }
+        return $event;
     }
     
     final public function getListenerProvider(): ListenerProviderInterface
